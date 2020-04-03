@@ -18,3 +18,16 @@ a,p{
     font-size: 30px;
     font-style: oblique;
 }
+
+.github,.linkedin{
+    height: 30px;
+    width: 30px;
+}
+
+.linkin{
+    color: lightskyblue;
+}
+
+.resources{
+    color: black;
+}
