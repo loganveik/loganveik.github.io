@@ -1,18 +1,22 @@
 body{
-    background: url(../images/concrete_seamless.png);
+    background: url(https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png);
+    background-size: 100% 100%;
+    background-attachment: fixed;
 }
 
 .navbar{
-background-color: lightslategrey;
+background-color: black;
 }
 
 a,p{
     color: white;
 }
 
-.container{
-    background-color: white;
+.lv{
+    color: white;
+    font-size: 35px;
 }
+
 
 .navbar-brand{
     font-size: 30px;
@@ -30,4 +34,72 @@ a,p{
 
 .resources{
     color: black;
+}
+
+.projectview,.resourceview,.info{
+    background-color: white;
+}
+
+.bio{
+    color: black;
+}
+
+.biodisplay,.contactview{
+    background-color:white;
+}
+
+#languagepic{
+    height: 50px;
+    width: 50px;
+}
+
+#aboutmepic{
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    height: 250px;
+    width: auto;
+}
+
+a, h1,.projects,.resources,.aboutme{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.bio{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.footertext{
+    text-align: center;
+    display: inline;
+    line-height: 50px;
+}
+
+#projecttitle{
+    color: black;
+    font-size: 20px;
+}
+
+.resourcepic:hover{
+    transform: scale(1.1);
+    transition: all .25s ease;
+}
+
+.resourcepic:hover:after{
+    transform: scale(1.1);
+    transition: all .25s ease;
+}
+
+#essentialtext{
+    color: black;
+    /* -webkit-text-stroke-width: 0.5px; 
+    -webkit-text-stroke-color: black; */
 }
